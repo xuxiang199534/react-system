@@ -1,0 +1,21 @@
+{
+  "env": {
+    "development": {
+      "presets" : ["es2015", "stage-0", "react"],
+      "plugins" : [
+        "react-hot-loader/babel",
+        "transform-decorators-legacy",
+        ["transform-runtime", { "polyfill": false }],
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+      ]
+    },
+    "production": {
+      "presets" : [["es2015", { "modules": false, "loose": true }], "stage-0", "react"],
+      "plugins" : [
+        "transform-decorators-legacy",
+        ["transform-runtime", { "polyfill": false }],
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
+      ]
+    }
+  }
+}

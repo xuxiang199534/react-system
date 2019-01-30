@@ -1,0 +1,142 @@
+.login{
+  header{
+    height: 50px;
+    padding: 0 15%;
+    line-height: 50px;
+    font-size: 12px;
+    span{
+      float: right;
+    }
+    img{
+      height: 40px;
+      width: auto;
+    }
+  }
+  footer{
+    height: 50px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    line-height: 20px;
+    text-align: center;
+    width: 100%;
+    padding-top: 5px;
+    p{
+      margin-bottom: 0;
+      span{
+        padding: 0 10px;
+      }
+    }
+  }
+  .login {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-image: url('../../images/bg.jpg');
+    background-size: cover;
+    .layout {
+      position: absolute;
+      transform: translate(-50%, -70%);
+      top: 50%;
+      left: 50%;
+      .logoImg {
+        margin: 0 auto 20px;
+        display: block;
+        width: 140px;
+      }
+      .logoSpan {
+        font-size: 24px;
+        color: #fff;
+        display: block;
+        margin: 0 auto 20px;
+        text-align: center;
+      }
+      .contents {
+        width: 360px;
+        background-color: #fff;
+        padding: 30px 50px;
+        border-radius: 4px;
+        .title {
+          text-align: center;
+          color: #464e66;
+          text-align: center;
+          margin-bottom: 20px;
+          font-size: 16px;
+        }
+        .button {
+          width: 100%;
+          height: 40px;
+          font-size: 14px;
+        }
+        .forget{
+          float: right;
+          margin-bottom: 10px;
+          cursor: pointer;
+        }
+        .type-choice {
+          margin-bottom: 5px;
+          .type-btn {
+            cursor: pointer;
+            display: inline-block;
+            width: 50%;
+            text-align: center;
+            padding-bottom: 5px;
+            user-select: none;
+          }
+          .type-btn-active {
+            border-bottom: 2px solid #1890FF;
+            color: #1890FF;
+          }
+        }
+      }
+      .identifyCode{
+        img{
+          display: inline-block;
+          height: 50px;
+          width: auto;
+          text-align: center;
+          padding-left: 25px;
+        }
+        .code{
+          width: 50%;
+          float: left;
+        }
+        .send{
+          width: 40%;
+          float: right;
+          background: #FF5500;
+          color: #fff;
+          height: 32px;
+          border-radius: 2px;
+          text-align: center;
+          line-height: 32px;
+          cursor: pointer;
+          margin-top: 3px;
+        }
+        .disabledSend{
+          background: rgb(204, 204, 204);
+        }
+        .clearfix:after{
+          display: table;
+          contain: "";
+          clear: both;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
